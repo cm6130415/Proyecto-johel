@@ -1,0 +1,98 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7faf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.login-container {
+    background-color: #d5f1e9;
+    width: 400px;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Logo y texto */
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.vet {
+    color: #0090bd;
+}
+
+.care {
+    color: #56bfa0;
+}
+
+.plus {
+    color: #0090bd;
+}
+
+/* Formulario */
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form input {
+    padding: 12px;
+    border: 1.5px solid #b8e2d1;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 14px;
+}
+
+.login-form input:focus {
+    border-color: #56bfa0;
+}
+
+/* Botón */
+button {
+    background-color: #56bfa0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #48a98c;
+}
+
+/* Enlaces */
+.links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #4d7cb9;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
